@@ -1,0 +1,31 @@
+{
+  "parent": "map:technical/root",
+  "criteria": {
+    "hats": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ],
+              "nbt": "{base:{equip_change:1b}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_helmet"
+            ],
+            "nbt": "{base:{equip_change:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "map:item/armor/golden_helmet/equip"
+  }
+}

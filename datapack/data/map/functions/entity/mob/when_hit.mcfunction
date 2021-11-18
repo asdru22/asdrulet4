@@ -1,0 +1,1 @@
+execute as @a[advancements={map:technical/player/on_hit=true}] run function map:player/stats/get/active/init

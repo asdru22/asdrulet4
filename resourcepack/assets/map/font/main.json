@@ -1,0 +1,40 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "map:particle/test/0.png",
+            "ascent": 13,
+            "height": 10,
+            "chars": [
+                "\u000a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "map:particle/test/1.png",
+            "ascent": 13,
+            "height": 10,
+            "chars": [
+                "\u000b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "map:particle/test/2.png",
+            "ascent": 13,
+            "height": 10,
+            "chars": [
+                "\u000b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "map:particle/test/3.png",
+            "ascent": 13,
+            "height": 10,
+            "chars": [
+                "\u000c"
+            ]
+        }
+    ]
+}

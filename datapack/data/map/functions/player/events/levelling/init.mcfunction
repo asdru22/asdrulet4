@@ -1,0 +1,3 @@
+scoreboard players operation @s map.xp += d.0 map.xp
+title @s[tag=!map.actionbar] actionbar [{"translate":"gui.asc.gain_xp","with":[{"score":{"name": "d.0","objective": "map.xp"}},{"font":"map:main","text":"\ua003"},{"score":{"name": "@s","objective": "map.xp"},"color":"#8B92EE"},{"score":{"name": "@s","objective": "map.max_xp"},"color":"#8B92EE"}]}]
+execute if score @s map.xp >= @s map.max_xp run function map:player/events/levelling/levelup

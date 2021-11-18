@@ -1,0 +1,1 @@
+execute if entity @s[tag=map.entity.mob,tag=!map.entity.mob.setup] run function map:entity/mob/setup
