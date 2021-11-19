@@ -1,1 +1,1 @@
-execute if entity @s[tag=map.entity.mob,tag=!map.entity.mob.setup] run function map:entity/mob/setup
+execute if entity @s[tag=map.entity.mob] run function map:entity/mob/tick

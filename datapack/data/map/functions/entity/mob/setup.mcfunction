@@ -1,4 +1,6 @@
 tag @s add map.entity.mob.setup
+function map:entity/mob/load_stats
+
 # Assign a new id to the entity
 execute store result score @s map.id run scoreboard players add map.id map.id 1
 scoreboard players operation @s map.mob_id = @s map.id

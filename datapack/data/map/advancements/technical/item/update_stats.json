@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "slots": {},
+        "items": [
+          {
+            "nbt": "{base:{inv_stats:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "map:player/stats/get/inv/get"
+  }
+}

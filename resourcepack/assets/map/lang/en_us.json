@@ -19,6 +19,10 @@
 	"item.test.lore.luck":"Luck: %s",
 
 	"item.test.lore.level_required_and_sell_price":"Level Required: %s    Sell Price: %s",
-	"item.test.lore.sell_price":"Sell Price: %s"
+	"item.test.lore.sell_price":"Sell Price: %s",
+
+	"entity.map.dummy":"Dummy",
+	"display.map.mob_display":"%s [%s/%s]"
+
 }
 

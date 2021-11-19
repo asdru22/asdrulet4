@@ -1,0 +1,1 @@
+title @s actionbar ["health: ",{"score":{"name":"@s","objective":"stat.health"}},{"text":"/"},{"score":{"name":"@s","objective":"max_health"}},{"text":"   defense: "},{"score":{"name":"@s","objective":"stat.defense"}}]

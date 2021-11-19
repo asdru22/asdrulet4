@@ -7,6 +7,21 @@ scoreboard objectives add map.max_xp dummy
 scoreboard objectives add map.c_mana dummy
 scoreboard objectives add map.m_mana dummy
 scoreboard objectives add map.p_mana dummy
+#stats
+scoreboard objectives add damage.base dummy
+scoreboard objectives add crit_damage.base dummy
+scoreboard objectives add crit_chance.base dummy
+scoreboard objectives add defense.base dummy
+scoreboard objectives add health.base dummy
+scoreboard objectives add stat.defense dummy
+scoreboard objectives add stat.health dummy
+scoreboard objectives add regen.delay dummy
+scoreboard objectives add max_health dummy
+
+
+
+#other
+scoreboard objectives add map.mob_health dummy
 #entity matching scores
 scoreboard objectives add map.id dummy
 scoreboard objectives add map.mob_id dummy
@@ -47,6 +62,6 @@ scoreboard objectives add map.id.31 dummy
 forceload add -3000000 2000
 setblock -3000000 0 2000 yellow_shulker_box{Items:[{Slot:0b,id:"minecraft:barrier",Count:1b}]}
 function map:technical/set_constants
-function map:technical/timers/second
+function map:technical/timers/second/second
 
 tellraw @a {"text":"reload COMPLETE!!","color":"yellow"}
