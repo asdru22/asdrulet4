@@ -17,6 +17,7 @@
 	"item.test.lore.knockback_resistance":"Knockback Resistance: %s",
 	"item.test.lore.movement_speed":"Movement Speed: %s",
 	"item.test.lore.luck":"Luck: %s",
+	"item.test.lore.mining_speed":"Mining Speed: %s",
 
 	"item.test.lore.level_required_and_sell_price":"Level Required: %s    Sell Price: %s",
 	"item.test.lore.sell_price":"Sell Price: %s",
