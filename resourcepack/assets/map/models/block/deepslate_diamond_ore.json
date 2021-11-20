@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft:block/deepslate_diamond_ore"
+  },
+	"display": {
+		"head": {
+			"translation": [0, -30.43, 0],
+			"scale": [1.602, 1.602, 1.602]
+		}
+	}
+}

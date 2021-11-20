@@ -1,0 +1,1 @@
+execute if data storage mdata root.temp.block_broken{id:"minecraft:deepslate_diamond_ore"} run loot give @s loot minecraft:blocks/diamond_ore

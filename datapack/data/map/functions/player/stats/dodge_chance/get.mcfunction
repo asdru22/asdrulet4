@@ -20,4 +20,4 @@ scoreboard players operation s.dodge_chance map.d += d.0 map.d
 
 #tellraw @s ["dodge_chance: ",{"score":{"name": "s.dodge_chance","objective": "map.d"}}]
 execute if score s.dodge_chance map.d matches 1.. store result score d.0 map.d run loot spawn ~ ~ ~ loot map:technical/rng/random_1_100
-execute if score d.0 map.d <= s.dodge_chance map.d run function map:player/events/when_hit/main 
+execute if score d.0 map.d <= s.dodge_chance map.d run function map:player/events/actions/when_hit/main 

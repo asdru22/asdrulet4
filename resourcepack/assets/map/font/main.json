@@ -13,27 +13,27 @@
             "type": "bitmap",
             "file": "map:particle/test/1.png",
             "ascent": 13,
-            "height": 10,
+            "height": 13,
             "chars": [
-                "\u000b"
+                "\u000c"
             ]
         },
         {
             "type": "bitmap",
             "file": "map:particle/test/2.png",
             "ascent": 13,
-            "height": 10,
+            "height": 13,
             "chars": [
-                "\u000b"
+                "\u000d"
             ]
         },
         {
             "type": "bitmap",
             "file": "map:particle/test/3.png",
             "ascent": 13,
-            "height": 10,
+            "height": 13,
             "chars": [
-                "\u000c"
+                "\u000e"
             ]
         }
     ]

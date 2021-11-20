@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{base:{block_drop:{break_time:2356,identifier:1b,id:\"minecraft:deepslate_diamond_ore\"}},CustomModelData:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,7 @@
     "side": "minecraft:block/repeating_command_block_side"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 1},"model": "map:transparent"}
+    {"predicate": {"custom_model_data": 1},"model": "map:transparent"},
+    {"predicate": {"custom_model_data": 2},"model": "map:block/deepslate_diamond_ore"}
 ]
 }

@@ -24,7 +24,8 @@
 	"entity.map.dummy":"Dummy",
 	"display.map.mob_display":"%s §7[§r%s§7/§r%s§c❤§7]",
 	"display.map.damage_dealt":"%s%s",
-	"display.map.actionbar":"%s/%s%s%s%s%s%s%s/%s%s"
+	"display.map.actionbar":"%s/%s%s%s%s%s%s%s/%s%s",
+	"display.map.block_progress":"%s%s"
 
 
 }

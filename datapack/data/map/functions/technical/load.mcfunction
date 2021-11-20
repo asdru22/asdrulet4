@@ -21,10 +21,13 @@ scoreboard objectives add max_health dummy
 scoreboard objectives add use_bow minecraft.used:minecraft.bow
 scoreboard objectives add use_crossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add use_trident minecraft.used:minecraft.trident
-
+scoreboard objectives add use_nether_pick minecraft.used:minecraft.netherite_pickaxe
 #other
 scoreboard objectives add using_slot dummy
 scoreboard objectives add p_using_slot dummy
+## block breaking 
+scoreboard objectives add block.c_timer dummy
+scoreboard objectives add block.m_timer dummy
 
 #entity matching scores
 scoreboard objectives add map.id dummy
