@@ -18,8 +18,8 @@ scoreboard players operation s.damage map.d += d.0 map.d
 execute store result score d.0 map.d run data get storage mdata root.temp.equipment.feet.tag.base.stats.damage
 scoreboard players operation s.damage map.d += d.0 map.d
 
-tellraw @s ["fake damage: ",{"score":{"name": "s.damage","objective": "map.d"}}]
+#tellraw @s ["fake damage: ",{"score":{"name": "s.damage","objective": "map.d"}}]
 scoreboard players operation s.damage map.d *= real.damage_recived map.d
 scoreboard players operation s.damage map.d /= const.10 map.d
 
-tellraw @s ["tot damage output: ",{"score":{"name": "s.damage","objective": "map.d"}}]
+#tellraw @s ["tot damage output: ",{"score":{"name": "s.damage","objective": "map.d"}}]

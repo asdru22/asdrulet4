@@ -1,5 +1,4 @@
 {
-  "parent": "map:technical/root",
   "criteria": {
     "cool_helmet": {
       "trigger": "minecraft:inventory_changed",

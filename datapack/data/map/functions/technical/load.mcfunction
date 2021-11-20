@@ -4,24 +4,28 @@ scoreboard objectives add map.level dummy
 scoreboard objectives add map.xp dummy
 scoreboard objectives add map.max_xp dummy
 #mana scores
-scoreboard objectives add map.c_mana dummy
-scoreboard objectives add map.m_mana dummy
-scoreboard objectives add map.p_mana dummy
+scoreboard objectives add stat.mana dummy
+scoreboard objectives add max_mana dummy
 #stats
 scoreboard objectives add damage.base dummy
 scoreboard objectives add crit_damage.base dummy
 scoreboard objectives add crit_chance.base dummy
 scoreboard objectives add defense.base dummy
 scoreboard objectives add health.base dummy
+scoreboard objectives add mana.base dummy
 scoreboard objectives add stat.defense dummy
 scoreboard objectives add stat.health dummy
 scoreboard objectives add regen.delay dummy
 scoreboard objectives add max_health dummy
-
-
+## use items
+scoreboard objectives add use_bow minecraft.used:minecraft.bow
+scoreboard objectives add use_crossbow minecraft.used:minecraft.crossbow
+scoreboard objectives add use_trident minecraft.used:minecraft.trident
 
 #other
-scoreboard objectives add map.mob_health dummy
+scoreboard objectives add using_slot dummy
+scoreboard objectives add p_using_slot dummy
+
 #entity matching scores
 scoreboard objectives add map.id dummy
 scoreboard objectives add map.mob_id dummy

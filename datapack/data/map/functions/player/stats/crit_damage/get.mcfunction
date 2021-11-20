@@ -18,8 +18,8 @@ scoreboard players operation s.crit_damage map.d += d.0 map.d
 execute store result score d.0 map.d run data get storage mdata root.temp.equipment.feet.tag.base.stats.crit_damage
 scoreboard players operation s.crit_damage map.d += d.0 map.d
 
-tellraw @s ["crit damage: ",{"score":{"name": "s.crit_damage","objective": "map.d"}}]
-say CRIT!!
+#tellraw @s ["crit damage: ",{"score":{"name": "s.crit_damage","objective": "map.d"}}]
+
 scoreboard players set .crit map.d 1
 scoreboard players operation d.0 map.d = s.damage map.d
 scoreboard players operation d.0 map.d *= s.crit_damage map.d

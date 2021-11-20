@@ -31,6 +31,6 @@ execute if entity @s[advancements={map:technical/player/on_hit={bit28=true}}] ru
 execute if entity @s[advancements={map:technical/player/on_hit={bit29=true}}] run scoreboard players add $hit map.id 536870912
 execute if entity @s[advancements={map:technical/player/on_hit={bit30=true}}] run scoreboard players add $hit map.id 1073741824
 execute if entity @s[advancements={map:technical/player/on_hit={bit31=true}}] run scoreboard players operation $hit map.id *= const.-1 map.d
-function map:player/stats/get/passive/get
+function map:player/stats/get/active/get
 execute as @e[type=#map:mobs,tag=map.entity.mob.setup] if score @s map.mob_id = $hit map.id run function map:entity/mob/when_hit
 advancement revoke @s only map:technical/player/on_hit

@@ -1,5 +1,4 @@
 {
-  "parent": "map:technical/root",
   "criteria": {
     "hats": {
       "trigger": "minecraft:inventory_changed",

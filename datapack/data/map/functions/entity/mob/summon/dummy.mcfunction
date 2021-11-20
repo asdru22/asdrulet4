@@ -1,1 +1,1 @@
-summon zombie ~ ~ ~ {DeathLootTable:"",CanPickUpLoot:0b,Tags:["map.entity","map.entity.mob"],ArmorItems:[{},{},{},{id:"minecraft:deepslate_diamond_ore",Count:1b,tag:{base:{attack_damage:12,health:100,name:'{"translate":"entity.map.dummy"}'}}}]}
+summon zombie ~ ~ ~ {DeathLootTable:"",CanPickUpLoot:0b,Tags:["map.entity","map.entity.mob"],ArmorItems:[{},{},{},{id:"minecraft:deepslate_diamond_ore",Count:1b,tag:{base:{attack_damage:12,health:2352,name:'{"translate":"entity.map.dummy"}'}}}]}

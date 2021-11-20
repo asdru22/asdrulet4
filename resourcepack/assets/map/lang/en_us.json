@@ -22,7 +22,8 @@
 	"item.test.lore.sell_price":"Sell Price: %s",
 
 	"entity.map.dummy":"Dummy",
-	"display.map.mob_display":"%s [%s/%s]"
+	"display.map.mob_display":"%s §7[§r%s§7/§r%s§c❤§7]",
+	"display.map.damage_dealt":"%s%s"
 
 }
 

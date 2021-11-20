@@ -1,5 +1,40 @@
 {
   "criteria": {
+        "melee_hit": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+            "damage": {
+              "type": {
+                "is_explosion": false,
+                "is_fire": false,
+                "is_magic": false,
+                "is_projectile": false,
+                "is_lightning": false
+              }
+            }
+          }
+        },
+            "ranged_hit": {
+              "trigger": "minecraft:player_hurt_entity",
+              "conditions": {
+                "damage": {
+                  "type": {
+                    "is_explosion": false,
+                    "is_projectile": true
+                  }
+                }
+              }
+            },
+            "ranged_exp_hit": {
+              "trigger": "minecraft:player_hurt_entity",
+              "conditions": {
+                "damage": {
+                  "type": {
+                    "is_explosion": true
+                  }
+                }
+              }
+            },
     "mob": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
@@ -1054,6 +1089,11 @@
     [
       "bit31",
       "!bit31"
+    ],
+    [
+      "melee_hit",
+      "ranged_hit",
+      "ranged_exp_hit"
     ]
   ],
   "rewards": {
