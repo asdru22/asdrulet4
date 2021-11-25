@@ -21,7 +21,7 @@ scoreboard players operation s.mana_regen map.d += d.0 map.d
 scoreboard players operation regen_val map.d = s.mana_regen map.d
 scoreboard players operation regen_val map.d *= @s max_mana
 scoreboard players operation regen_val map.d /= const.100 map.d
-execute if score regen_val map_d matches 0 run scoreboard players set regen_val map_d 1
+execute if score regen_val map_d matches ..0 run scoreboard players set regen_val map_d 0
 
 scoreboard players operation @s stat.mana += regen_val map.d
 execute if score @s stat.mana >= @s max_mana run scoreboard players operation @s stat.mana = @s max_mana
