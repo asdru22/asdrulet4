@@ -24,6 +24,6 @@ scoreboard players operation s.damage map.d += d.0 map.d
 #tellraw @s ["fake damage: ",{"score":{"name": "s.damage","objective": "map.d"}}]
 scoreboard players operation s.damage map.d *= real.damage_recived map.d
 scoreboard players operation s.damage map.d /= const.10 map.d
-execute if data storage mdata root.temp.attack.type{type:"magic"} run scoreboard players operation s.damage map.d /= const.3 map.d
+#execute if data storage mdata root.temp.attack.type{type:"magic"} run scoreboard players operation s.damage map.d /= const.3 map.d
 
 #tellraw @s ["tot damage output: ",{"score":{"name": "s.damage","objective": "map.d"}}]
