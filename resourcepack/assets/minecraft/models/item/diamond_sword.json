@@ -6,6 +6,8 @@
   "overrides": [
     {"predicate": {"custom_model_data": 1},"model": "map:item/melee/wood_sword"},
     {"predicate": {"custom_model_data": 2},"model": "map:item/melee/iron_sword"},
-    {"predicate": {"custom_model_data": 3},"model": "map:item/melee/double_edged_crystal_sword"}
-]
+    {"predicate": {"custom_model_data": 3},"model": "map:item/melee/double_edged_crystal_sword"},
+    {"predicate": {"custom_model_data": 4},"model": "map:item/melee/frostspark_blade"},
+    {"predicate": {"custom_model_data": 5},"model": "map:item/melee/frostspark_blade_shattered"}
+  ]
 }

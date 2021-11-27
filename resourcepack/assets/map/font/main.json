@@ -4,7 +4,7 @@
             "type": "bitmap",
             "file": "map:particle/test.png",
             "ascent": 13,
-            "height": 10,
+            "height": 13,
             "chars": [
                 "\u000a\u000b\u000c\u000d"
             ]
@@ -16,6 +16,15 @@
             "height": 16,
             "chars": [
                 "\u000e\u000f\u0010"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "map:particle/ice_shard.png",
+            "ascent": 13,
+            "height": 13,
+            "chars": [
+                "\u0011\u0012\u0013\u0014"
             ]
         }
     ]

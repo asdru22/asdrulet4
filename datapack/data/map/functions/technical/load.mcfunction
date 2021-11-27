@@ -30,7 +30,8 @@ scoreboard objectives add p_using_slot dummy
 ## block breaking 
 scoreboard objectives add block.c_timer dummy
 scoreboard objectives add block.m_timer dummy
-
+## clocks
+scoreboard objectives add timer dummy
 #entity matching scores
 scoreboard objectives add map.id dummy
 scoreboard objectives add map.mob_id dummy
