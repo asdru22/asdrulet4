@@ -3,8 +3,8 @@
         {
             "type": "bitmap",
             "file": "map:font/numbers.png",
-            "ascent": 15,
-            "height": 15,
+            "ascent": 16,
+            "height": 16,
             "chars": [
                 "0123456789"
             ]
