@@ -8,3 +8,5 @@ kill @e[type=marker,tag=map.entity.trig]
 tag @s add map.ability.frostspark_blade
 tag @s add map.ability
 item modify entity @s weapon.mainhand map:custom/frostspark_blade
+
+execute positioned ~ ~1 ~ run particle minecraft:item diamond_sword{CustomModelData:4} ^ ^ ^.25 0.2 0.2 .2 0 10

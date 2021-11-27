@@ -23,7 +23,7 @@ scoreboard players operation s.damage map.d += d.0 map.d
 
 #tellraw @s ["fake damage: ",{"score":{"name": "s.damage","objective": "map.d"}}]
 scoreboard players operation s.damage map.d *= real.damage_recived map.d
-scoreboard players operation s.damage map.d /= const.10 map.d
+scoreboard players operation s.damage map.d /= const.100 map.d
 
 execute if data storage mdata root.temp.equipment.mainhand.tag{CustomModelData:5,base:{id:"frostspark_blade"}} run scoreboard players operation s.damage map.d /= const.2 map.d
 #execute if data storage mdata root.temp.attack.type{type:"magic"} run scoreboard players operation s.damage map.d /= const.3 map.d

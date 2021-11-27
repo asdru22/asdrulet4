@@ -3,7 +3,7 @@ effect give @s[type=!#map:undead] instant_health 1 10 true
 effect give @s[type=#map:undead] instant_damage 1 10 true
 execute store result score real.damage_recived map.d run data get entity @s Health -10
 scoreboard players operation real.damage_recived map.d += @s map.mob_health
-execute if score magic.triggered map.d matches 1 run scoreboard players set real.damage_recived map.d 10
+execute if score magic.triggered map.d matches 1 run scoreboard players set real.damage_recived map.d 100
 #tellraw @p {"score":{"name": "real.damage_recived","objective": "map.d"}}
 
 ## store real damage dealt by the player in real.damage_recived
