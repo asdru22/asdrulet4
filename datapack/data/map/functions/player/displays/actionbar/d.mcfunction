@@ -1,0 +1,2 @@
+title @p title ["",{"text":"\ua011","font":"map:titles"},{"translate":"space.-1"},{"text":"\ua013","font":"map:titles"},{"translate":"space.-2"},{"text":"\ua012","font":"map:titles"}]
+title @p subtitle "the eater of balls"

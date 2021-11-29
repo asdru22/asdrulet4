@@ -1,0 +1,5 @@
+{"parent": "minecraft:item/handheld_rod",
+"textures": {"layer0":
+    "map:item/magic/enchanted_twig"
+    }
+}
