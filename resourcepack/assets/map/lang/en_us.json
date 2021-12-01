@@ -36,6 +36,9 @@
 
 	"item.map.iron_greatsword":"Iron Greatsword",
 
+	"item.map.light_stave":"Light Stave",
+	"item.map.light_stave.ability.1":"Hitting a mob will make 2 extra beams",
+	"item.map.light_stave.ability.2":"appear, that target the entity that was just hit.",
 
 
 

@@ -6,3 +6,5 @@ scoreboard players set magic.triggered map.d 1
 advancement grant @a[scores={use_coas=1..}] only map:technical/player/on_hit magic_hit
 function map:entity/mob/when_hit
 scoreboard players reset magic.triggered map.d
+
+## SPECIAL HIT EFFECTS
