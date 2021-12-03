@@ -18,6 +18,8 @@
 	"item.map.lore.movement_speed":"Movement Speed: %s",
 	"item.map.lore.luck":"Luck: %s",
 	"item.map.lore.mining_speed":"Mining Speed: %s",
+	"item.map.lore.damage_reduction":"Damage Reduction: %s",
+
 
 	"item.map.lore.level_required_and_sell_price":"Level Required: %s    Sell Price: %s",
 	"item.map.lore.sell_price":"Sell Price: %s",
@@ -25,6 +27,8 @@
 	"entity.map.dummy":"Dummy",
 	"display.map.mob_display":"%s §7[§r%s§7/§r%s§c❤§7]",
 	"display.map.damage_dealt":"%s%s",
+	"display.map.damage_recived":"-%s%s",
+	"display.map.heal_recived":"+%s%s",
 	"display.map.actionbar":"%s/%s%s%s%s%s%s%s/%s%s",
 	"display.map.block_progress":"%s%s",
 

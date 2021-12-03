@@ -1,5 +1,21 @@
 {
     "criteria": {
+            "blocked_by_shield": {
+                "trigger": "minecraft:entity_hurt_player",
+                "conditions": {
+                  "damage": {
+                    "blocked": true
+                  }
+                }
+          },
+          "nblocked_by_shield": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+              "damage": {
+                "blocked": false
+              }
+            }
+      },
         "target": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
@@ -782,6 +798,10 @@
         [
             "bit31",
             "nbit31"
+        ],
+        [
+            "blocked_by_shield",
+            "nblocked_by_shield"
         ]
     ],
     "rewards": {
