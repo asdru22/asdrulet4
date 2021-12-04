@@ -35,6 +35,33 @@
             "chars": [
                 "\u0015"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "map:gui/psychosis.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0016\u0017\u0018\u0019\u002a\u002b"
+            ]
+        },
+        {
+          "type": "bitmap",
+          "file": "map:gui/negative_space.png",
+          "ascent": -32768,
+          "height": -3,
+          "chars": [
+            "\u002c"
+          ]
+        },
+        {
+            "type": "bitmap",
+            "file": "map:particle/scrambled.png",
+            "ascent": 13,
+            "height": 13,
+            "chars": [
+                "\u002d\u002e\u002f\u0030"
+            ]
         }
     ]
 }

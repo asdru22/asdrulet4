@@ -1,4 +1,4 @@
-scoreboard players reset s.lifesteal map.d
+scoreboard players set s.lifesteal map.d 0
 scoreboard players reset lifesteal.val map.d
 #get mainhand item
 execute store result score d.0 map.d run data get storage mdata root.temp.equipment.mainhand.tag.base.stats.lifesteal

@@ -11,6 +11,9 @@ execute as @a[advancements={map:technical/player/on_hit=true}] run function map:
 execute as @a[scores={use_coas=1..}] run function map:player/stats/get/active/get
 execute at @s run function map:player/displays/damage_dealt/main
 
+## remove health given by psychic damage
+execute if score psychic_hit map.d matches 1 run function map:entity/mob/psychic_hit
+
 ## remove hp based on damage dealt by the player
 scoreboard players operation @s stat.health -= s.damage map.d
 function map:entity/mob/update_hp_display

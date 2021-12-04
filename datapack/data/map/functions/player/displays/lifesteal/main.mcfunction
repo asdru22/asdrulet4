@@ -1,3 +1,3 @@
-summon item ~ ~2.1 ~ {CustomNameVisible:1b,NoGravity:1b,Age:5980,PickupDelay:211,Tags:["map.entity.technical.lifesteal_heal"],Item:{id:"minecraft:repeating_command_block",Count:1b,tag:{CustomModelData:1}}}
+summon item ~ ~2.1 ~ {Motion:[0.0d,0.05d,0.0d],CustomNameVisible:1b,NoGravity:1b,Age:5980,PickupDelay:211,Tags:["map.entity.technical.lifesteal_heal"],Item:{id:"minecraft:repeating_command_block",Count:1b,tag:{CustomModelData:1}}}
 data merge block 0 0 0 {Text1:'{"translate":"display.map.damage_dealt","with":[{"score":{"name":"lifesteal.val","objective":"map.d"},"font":"map:numbers"},{"text":"✣","color":"dark_red"}]}'}
 execute as @e[type=item,tag=map.entity.technical.lifesteal_heal,tag=!map.entity.technical.lifesteal_heal.setup] run function map:player/displays/lifesteal/item

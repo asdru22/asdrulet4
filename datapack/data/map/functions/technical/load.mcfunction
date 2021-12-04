@@ -6,6 +6,11 @@ scoreboard objectives add map.max_xp dummy
 #mana scores
 scoreboard objectives add stat.mana dummy
 scoreboard objectives add max_mana dummy
+#psychosis scores
+scoreboard objectives add stat.psychosis dummy
+scoreboard objectives add max_psychosis dummy
+scoreboard objectives add perc_psychosis dummy
+
 #stats
 scoreboard objectives add damage.base dummy
 scoreboard objectives add crit_damage.base dummy
@@ -13,6 +18,8 @@ scoreboard objectives add crit_chance.base dummy
 scoreboard objectives add defense.base dummy
 scoreboard objectives add health.base dummy
 scoreboard objectives add mana.base dummy
+scoreboard objectives add psychosis.base dummy
+
 scoreboard objectives add stat.defense dummy
 scoreboard objectives add stat.health dummy
 scoreboard objectives add regen.delay dummy

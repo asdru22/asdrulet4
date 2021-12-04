@@ -1,10 +1,12 @@
 scoreboard players operation s.damage map.d = @s damage.base
 #get mainhand item
+
 execute store result score d.0 map.d run data get storage mdata root.temp.equipment.mainhand.tag.base.stats.damage
+
 execute if data storage mdata root.temp.attack.type{type:"melee"} run function map:player/stats/damage/melee_abilities
 execute if data storage mdata root.temp.attack.type{type:"ranged"} unless data storage mdata root.temp.equipment.mainhand.tag.base{type:"ranged"} run scoreboard players set d.0 map.d 0
 execute if data storage mdata root.temp.attack.type{type:"magic"} unless data storage mdata root.temp.equipment.mainhand.tag.base{type:"magic"} run scoreboard players set d.0 map.d 0
-execute store result score d.0 map.d run data get storage mdata root.temp.equipment.mainhand.tag.base.stats.damage 
+
 execute if score @s map.level >= lvl.mainhand map.d run scoreboard players operation s.damage map.d += d.0 map.d
 #get offhand item
 execute store result score d.0 map.d run data get storage mdata root.temp.equipment.offhand.tag.base.stats.damage 
