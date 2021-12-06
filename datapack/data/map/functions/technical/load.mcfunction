@@ -80,5 +80,7 @@ forceload add -3000000 2000
 setblock -3000000 0 2000 yellow_shulker_box{Items:[{Slot:0b,id:"minecraft:barrier",Count:1b}]}
 function map:technical/set_constants
 function map:technical/timers/second/second
+function map:technical/timers/2_seconds/main
+
 
 tellraw @a {"text":"reload COMPLETE!!","color":"yellow"}

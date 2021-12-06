@@ -1,0 +1,1 @@
+execute if score @s stat.psychosis < @s max_psychosis run function map:player/stats/max_psychosis/regen

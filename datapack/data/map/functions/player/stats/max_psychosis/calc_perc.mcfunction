@@ -7,4 +7,4 @@ scoreboard players operation psy.dec map.d %= const.10 map.d
 scoreboard players operation psy.int map.d /= const.10 map.d
 scoreboard players operation @s perc_psychosis = psy.int map.d
 
-execute if score @s perc_psychosis matches ..9 run function map:effects/scrambling/main
+execute if score @s perc_psychosis matches ..19 run function map:effects/scrambling/main

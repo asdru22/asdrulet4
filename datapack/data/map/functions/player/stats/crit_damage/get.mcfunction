@@ -21,13 +21,13 @@ execute if score @s map.level >= lvl.legs map.d run scoreboard players operation
 execute store result score d.0 map.d run data get storage mdata root.temp.equipment.feet.tag.base.stats.crit_damage 
 execute if score @s map.level >= lvl.feet map.d run scoreboard players operation s.crit_damage map.d += d.0 map.d
 #acc 1
-execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessory[0].tag.base.stats.crit_damage 
+execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessories[0].tag.base.stats.crit_damage 
 execute if score @s map.level >= lvl.acc1 map.d run scoreboard players operation s.crit_damage map.d += d.0 map.d
 #acc 2
-execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessory[1].tag.base.stats.crit_damage 
+execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessories[1].tag.base.stats.crit_damage 
 execute if score @s map.level >= lvl.acc2 map.d run scoreboard players operation s.crit_damage map.d += d.0 map.d
 #acc 3
-execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessory[2].tag.base.stats.crit_damage 
+execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessories[2].tag.base.stats.crit_damage 
 execute if score @s map.level >= lvl.acc3 map.d run scoreboard players operation s.crit_damage map.d += d.0 map.d
 
 #tellraw @s ["crit damage: ",{"score":{"name": "s.crit_damage","objective": "map.d"}}]

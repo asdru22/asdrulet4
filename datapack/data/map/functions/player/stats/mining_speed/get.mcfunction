@@ -20,11 +20,11 @@ execute if score @s map.level >= lvl.legs map.d run scoreboard players operation
 execute store result score d.0 map.d run data get storage mdata root.temp.equipment.feet.tag.base.stats.mining_speed 
 execute if score @s map.level >= lvl.feet map.d run scoreboard players operation s.mining_speed map.d += d.0 map.d
 #acc 1
-execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessory[0].tag.base.stats.mining_speed 
+execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessories[0].tag.base.stats.mining_speed 
 execute if score @s map.level >= lvl.acc1 map.d run scoreboard players operation s.mining_speed map.d += d.0 map.d
 #acc 2
-execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessory[1].tag.base.stats.mining_speed 
+execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessories[1].tag.base.stats.mining_speed 
 execute if score @s map.level >= lvl.acc2 map.d run scoreboard players operation s.mining_speed map.d += d.0 map.d
 #acc 3
-execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessory[2].tag.base.stats.mining_speed 
+execute store result score d.0 map.d run data get storage mdata root.temp.equipment.Accessories[2].tag.base.stats.mining_speed 
 execute if score @s map.level >= lvl.acc3 map.d run scoreboard players operation s.mining_speed map.d += d.0 map.d
