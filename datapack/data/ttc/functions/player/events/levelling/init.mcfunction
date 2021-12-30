@@ -1,0 +1,3 @@
+scoreboard players operation @s ttc.xp += d.0 ttc.xp
+title @s[tag=!ttc.actionbar] actionbar [{"translate":"gui.asc.gain_xp","with":[{"score":{"name": "d.0","objective": "ttc.xp"}},{"font":"ttc:main","text":"\ua003"},{"score":{"name": "@s","objective": "ttc.xp"},"color":"#8B92EE"},{"score":{"name": "@s","objective": "ttc.max_xp"},"color":"#8B92EE"}]}]
+execute if score @s ttc.xp >= @s ttc.max_xp run function ttc:player/events/levelling/levelup

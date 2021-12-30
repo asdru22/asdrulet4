@@ -1,0 +1,22 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "display.ttc.block_progress",
+        "with": [
+          {
+            "score": {
+              "name": "block.breaking_percentage",
+              "objective": "ttc.d"
+            }
+          },
+          {
+            "text": "%",
+            "color":"red"
+          }
+        ]
+      }
+    }
+  ]
+  

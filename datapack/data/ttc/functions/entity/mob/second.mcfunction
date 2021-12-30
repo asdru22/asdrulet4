@@ -1,0 +1,1 @@
+execute if entity @s[tag=!ttc.entity.mob.setup] run function ttc:entity/mob/setup

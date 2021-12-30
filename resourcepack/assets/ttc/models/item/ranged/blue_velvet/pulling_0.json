@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "ttc:item/ranged/blue_velvet/pulling_0"
+    }
+}

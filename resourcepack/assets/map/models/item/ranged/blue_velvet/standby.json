@@ -1,6 +1,0 @@
-{
-    "parent": "item/bow",
-    "textures": {
-        "layer0": "map:item/ranged/blue_velvet/standby"
-    }
-}

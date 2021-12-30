@@ -1,0 +1,19 @@
+scoreboard players set asc.vs_fix ttc.d 1 
+scoreboard players set const.-1 ttc.d -1
+scoreboard players set const.2 ttc.d 2
+scoreboard players set const.3 ttc.d 3
+scoreboard players set const.4 ttc.d 4
+scoreboard players set const.5 ttc.d 5
+scoreboard players set const.10 ttc.d 10
+scoreboard players set const.16 ttc.d 16
+scoreboard players set const.20 ttc.d 20
+scoreboard players set const.25 ttc.d 25
+scoreboard players set const.50 ttc.d 50
+scoreboard players set const.60 ttc.d 60
+scoreboard players set const.100 ttc.d 100
+scoreboard players set const.200 ttc.d 200
+scoreboard players set const.500 ttc.d 500
+
+scoreboard players set const.256 ttc.d 256
+scoreboard players set const.1000 ttc.d 1000
+scoreboard players set const.65536 ttc.d 65536

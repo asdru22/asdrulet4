@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "translate": "display.ttc.mob_display",
+      "with": [
+        {
+          "nbt": "ArmorItems[3].tag.base.name",
+          "entity": "@s",
+          "interpret": true
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "stat.health"
+          }
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "max_health"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,75 @@
+{
+	"item.ttc.lore.damage":"Damage: %s",
+	"item.ttc.lore.attack_speed":"Attack Speed: %s",
+	"item.ttc.lore.arrow_speed":"Arrow Speed: %s",
+	"item.ttc.lore.crit_chance":"Crit Chance: %s",
+	"item.ttc.lore.crit_damage":"Crit Damage: %s",
+	"item.ttc.lore.mana_req":"Mana Required: %s",
+	"item.ttc.lore.lifesteal":"Lifesteal: %s",
+	"item.ttc.lore.max_mana":"Max Mana: %s",
+	"item.ttc.lore.mana_regen":"Mana Regeneration: %s",
+	"item.ttc.lore.max_psychosis":"Max Psychosis: %s",
+	"item.ttc.lore.psychosis_used":"Psychosis Consumed: %s",
+	"item.ttc.lore.health":"Health: %s",
+	"item.ttc.lore.defense":"Defense: %s",
+	"item.ttc.lore.hp_regen":"Health Regeneration: %s§a",
+	"item.ttc.lore.dodge_chance":"Dodge Chance: %s",
+	"item.ttc.lore.knockback_resistance":"Knockback Resistance: %s",
+	"item.ttc.lore.movement_speed":"Movement Speed: %s",
+	"item.ttc.lore.luck":"Luck: %s",
+	"item.ttc.lore.mining_speed":"Mining Speed: %s",
+	"item.ttc.lore.damage_reduction":"Damage Reduction: %s",
+
+
+	"item.ttc.lore.level_required_and_sell_price":"Level Required: %s    Sell Price: %s",
+	"item.ttc.lore.sell_price":"Sell Price: %s",
+
+	"entity.ttc.dummy":"Dummy",
+	"display.ttc.mob_display":"%s §7[§r%s§7/§r%s§c❤§7]",
+	"display.ttc.damage_dealt":"%s%s%s%s",
+	"display.ttc.damage_recived":"%s%s%s%s%s",
+	"display.ttc.heal_recived":"%s%s%s%s%s",
+	"display.ttc.actionbar":"%s/%s%s%s%s%s%s%s/%s%s",
+	"display.ttc.block_progress":"%s%s",
+	"display.ttc.dodge":"Dodge!",
+
+	"display.ttc.psychosis.0":"\u0019\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.1":"\u0016\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.2":"\u0016\u002c\u0017\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.3":"\u0016\u002c\u0017\u002c\u0017\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.4":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.5":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.6":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u002a\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.7":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u002a\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.8":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u002a\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.9":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u002b %s%s%s%s",
+	"display.ttc.psychosis.10":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0018 %s%s%s%s",
+
+	"item.ttc.frostspark_blade":"Frostspark Blade",
+	"item.ttc.lore.frostspark_blade.ability.1":"Striking an enemy while sneaking will",
+	"item.ttc.lore.frostspark_blade.ability.2":"shatter your weapon and create shards that pierce",
+	"item.ttc.lore.frostspark_blade.ability.3":"enemies dealing §c13§r damage, and then return to you.",
+	"item.ttc.lore.frostspark_blade.ability.4":"The sword, whilst shattered, deals §chalf§r damage.",
+
+	"item.ttc.iron_greatsword":"Iron Greatsword",
+
+	"item.ttc.light_stave":"Light Stave",
+	"item.ttc.light_stave.ability.1":"Hitting a mob will make 2 extra beams",
+	"item.ttc.light_stave.ability.2":"appear, that target the entity that was just hit.",
+
+	"container.crafting": "",
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+"":""
+}

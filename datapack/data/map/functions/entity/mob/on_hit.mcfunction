@@ -1,1 +1,0 @@
-execute store result score dmg.recived map.d run data get entity @s ArmorItems[3].tag.base.attack_damage

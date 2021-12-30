@@ -1,6 +1,0 @@
-summon item ~.13 ~.6 ~ {Tags:["map.entity","map.particle"],NoGravity:1b,Age:5950,PickupDelay:100,CustomName:'{"translate":"space.-16","with":[{"text":"\\u002d","font":"map:main","color":"#FF00AC"}]}',Item:{id:"minecraft:repeating_command_block",Count:1b,tag:{CustomModelData:1}},CustomNameVisible:1b}
-summon item ~ ~.6 ~ {Tags:["map.entity","map.particle"],NoGravity:1b,Age:5950,PickupDelay:100,CustomName:'{"translate":"space.-16","with":[{"text":"\\u002e","font":"map:main","color":"#FF00AC"}]}',Item:{id:"minecraft:repeating_command_block",Count:1b,tag:{CustomModelData:1}},CustomNameVisible:1b}
-summon item ~ ~.6 ~-0.2 {Tags:["map.entity","map.particle"],NoGravity:1b,Age:5950,PickupDelay:100,CustomName:'{"translate":"space.-16","with":[{"text":"\\u002f","font":"map:main","color":"#FF00AC"}]}',Item:{id:"minecraft:repeating_command_block",Count:1b,tag:{CustomModelData:1}},CustomNameVisible:1b}
-summon item ~ ~.6 ~.2 {Tags:["map.entity","map.particle"],NoGravity:1b,Age:5950,PickupDelay:100,CustomName:'{"translate":"space.-16","with":[{"text":"\\u0030","font":"map:main","color":"#FF00AC"}]}',Item:{id:"minecraft:repeating_command_block",Count:1b,tag:{CustomModelData:1}},CustomNameVisible:1b}
-
-execute as @e[type=item,tag=map.particle,tag=!map.particle.setup] run function map:particle/setup

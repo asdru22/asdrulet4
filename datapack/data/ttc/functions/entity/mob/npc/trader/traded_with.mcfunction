@@ -1,0 +1,1 @@
+function #ttc:core/mob/traded_with

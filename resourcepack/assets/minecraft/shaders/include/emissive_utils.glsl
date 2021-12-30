@@ -17,5 +17,5 @@ vec4 make_emissive(vec4 inputColor, vec4 lightColor, float vertexDistance, float
 float remap_alpha(float inputAlpha) {
 	if (check_alpha(inputAlpha, 252.0) == 1.0) return 255.0; // Default case, checks for alpha 252 and converts all pixels of that to alpha 255.
 	else if (check_alpha(inputAlpha, 251.0) == 1.0) return 190.0; // Copypaste this and change the numbers to add a custom alpha value.
-	else return inputAlpha; // If none of the pixels are meant to be mapped then it just doesn't map.
+	else return inputAlpha; // If none of the pixels are meant to be mapped then it just doesn't ttc.
 }

@@ -4,7 +4,7 @@
       "layer0": "minecraft:item/carrot_on_a_stick"
     },
     "overrides": [
-      {"predicate": {"custom_model_data": 1},"model": "map:item/magic/sapphire_staff"},
-      {"predicate": {"custom_model_data": 2},"model": "map:item/magic/light_stave"}
+      {"predicate": {"custom_model_data": 1},"model": "ttc:item/magic/sapphire_staff"},
+      {"predicate": {"custom_model_data": 2},"model": "ttc:item/magic/light_stave"}
     ]
   }

@@ -32,13 +32,13 @@
         {"predicate": {"charged": 1},"model": "item/crossbow_arrow"},
         {"predicate": {"charged": 1,"firework": 1},"model": "item/crossbow_firework"},
 
-        { "predicate": {"custom_model_data": 1}, "model": "map:item/melee/iron_greatsword" },
+        { "predicate": {"custom_model_data": 1}, "model": "ttc:item/melee/iron_greatsword" },
 
-        {"predicate": {"custom_model_data": 2},"model": "map:item/ranged/lightning_crossbow/pulling_0"},
-        {"predicate": {"pulling": 1,"custom_model_data": 2},"model": "map:item/ranged/lightning_crossbow/pulling_0"},
-        {"predicate": {"pulling": 1,"pull": 0.58,"custom_model_data": 2},"model": "map:item/ranged/lightning_crossbow/pulling_1"},
-        {"predicate": {"pulling": 1,"pull": 1.0,"custom_model_data": 2},"model": "map:item/ranged/lightning_crossbow/pulling_2"},
-        {"predicate": {"charged": 1,"custom_model_data": 2},"model": "map:item/ranged/lightning_crossbow/arrow"},
-        {"predicate": {"charged": 1,"firework": 1,"custom_model_data": 2},"model": "map:item/ranged/lightning_crossbow/firework"}
+        {"predicate": {"custom_model_data": 2},"model": "ttc:item/ranged/lightning_crossbow/pulling_0"},
+        {"predicate": {"pulling": 1,"custom_model_data": 2},"model": "ttc:item/ranged/lightning_crossbow/pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.58,"custom_model_data": 2},"model": "ttc:item/ranged/lightning_crossbow/pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 1.0,"custom_model_data": 2},"model": "ttc:item/ranged/lightning_crossbow/pulling_2"},
+        {"predicate": {"charged": 1,"custom_model_data": 2},"model": "ttc:item/ranged/lightning_crossbow/arrow"},
+        {"predicate": {"charged": 1,"firework": 1,"custom_model_data": 2},"model": "ttc:item/ranged/lightning_crossbow/firework"}
     ]
 }

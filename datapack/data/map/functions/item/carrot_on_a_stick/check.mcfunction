@@ -1,2 +1,0 @@
-data modify storage mdata root.temp.equipment.mainhand set from entity @s SelectedItem
-execute if data storage mdata root.temp.equipment.mainhand.tag.base{type:"magic"} run function map:item/magic/check

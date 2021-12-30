@@ -4,6 +4,6 @@
     "layer0": "minecraft:item/diamond_sword"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 1},"model": "map:item/melee/iron_battleaxe"}
+    {"predicate": {"custom_model_data": 1},"model": "ttc:item/melee/iron_battleaxe"}
   ]
 }
