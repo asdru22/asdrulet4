@@ -4,12 +4,12 @@ scoreboard objectives add ttc.level dummy
 scoreboard objectives add ttc.xp dummy
 scoreboard objectives add ttc.max_xp dummy
 #mana scores
-scoreboard objectives add stat.mana dummy
-scoreboard objectives add max_mana dummy
+scoreboard objectives add ttc.stat.mana dummy
+scoreboard objectives add ttc.max_mana dummy
 #psychosis scores
-scoreboard objectives add stat.psychosis dummy
-scoreboard objectives add max_psychosis dummy
-scoreboard objectives add perc_psychosis dummy
+scoreboard objectives add ttc.stat.psychosis dummy
+scoreboard objectives add ttc.max_psychosis dummy
+scoreboard objectives add ttc.perc_psychosis dummy
 
 #stats
 scoreboard objectives add damage.base dummy
@@ -20,25 +20,25 @@ scoreboard objectives add health.base dummy
 scoreboard objectives add mana.base dummy
 scoreboard objectives add psychosis.base dummy
 
-scoreboard objectives add stat.defense dummy
-scoreboard objectives add stat.health dummy
-scoreboard objectives add regen.delay dummy
-scoreboard objectives add max_health dummy
+scoreboard objectives add ttc.stat.defense dummy
+scoreboard objectives add ttc.stat.health dummy
+scoreboard objectives add ttc.regen.delay dummy
+scoreboard objectives add ttc.max_health dummy
 ## use items
-scoreboard objectives add use_bow minecraft.used:minecraft.bow
-scoreboard objectives add use_crossbow minecraft.used:minecraft.crossbow
-scoreboard objectives add use_trident minecraft.used:minecraft.trident
-scoreboard objectives add use_nether_pick minecraft.used:minecraft.netherite_pickaxe
-scoreboard objectives add use_coas minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add use_wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add ttc.use_bow minecraft.used:minecraft.bow
+scoreboard objectives add ttc.use_crossbow minecraft.used:minecraft.crossbow
+scoreboard objectives add ttc.use_trident minecraft.used:minecraft.trident
+scoreboard objectives add ttc.use_nether_pick minecraft.used:minecraft.netherite_pickaxe
+scoreboard objectives add ttc.use_coas minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add ttc.use_wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
 #other
-scoreboard objectives add using_slot dummy
-scoreboard objectives add p_using_slot dummy
+scoreboard objectives add ttc.using_slot dummy
+scoreboard objectives add p_ttc.using_slot dummy
 ## block breaking 
-scoreboard objectives add block.c_timer dummy
-scoreboard objectives add block.m_timer dummy
+scoreboard objectives add block.c_ttc.timer dummy
+scoreboard objectives add block.m_ttc.timer dummy
 ## clocks
-scoreboard objectives add timer dummy
+scoreboard objectives add ttc.timer dummy
 #entity matching scores
 scoreboard objectives add ttc.id dummy
 scoreboard objectives add ttc.mob_id dummy

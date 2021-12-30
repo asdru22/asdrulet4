@@ -13,13 +13,13 @@
         {
           "score": {
             "name": "@s",
-            "objective": "stat.health"
+            "objective": "ttc.stat.health"
           }
         },
         {
           "score": {
             "name": "@s",
-            "objective": "max_health"
+            "objective": "ttc.max_health"
           }
         }
       ]

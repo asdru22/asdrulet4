@@ -1,2 +1,2 @@
-scoreboard players remove @s[scores={regen.delay=1..}] regen.delay 1
-execute if score @s regen.delay matches 0 if score @s stat.health < @s max_health run function ttc:player/stats/hp_regen/get
+scoreboard players remove @s[scores={ttc.regen.delay=1..}] ttc.regen.delay 1
+execute if score @s ttc.regen.delay matches 0 if score @s ttc.stat.health < @s ttc.max_health run function ttc:player/stats/hp_regen/get

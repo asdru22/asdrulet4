@@ -1,3 +1,3 @@
 summon item ~ ~2.1 ~ {Motion:[0.0d,0.05d,0.0d],CustomNameVisible:1b,NoGravity:1b,Age:5980,PickupDelay:211,Tags:["ttc.entity.technical.lifesteal_heal"],Item:{id:"minecraft:repeating_command_block",Count:1b,tag:{CustomModelData:1}}}
-data merge block 0 0 0 {Text1:'{"translate":"display.ttc.damage_dealt","with":[{"translate":"space.-max"},{"score":{"name":"lifesteal.val","objective":"ttc.d"},"font":"ttc:numbers"},{"text":"✣","color":"dark_red"},{"translate":"space.-max"}]}'}
+data merge block 0 0 0 {Text1:'{"translate":"display.ttc.damage_dealt","with":[{"translate":"space.-max"},{"score":{"name":"lifesteal.val","objective":"ttc.d"}},{"text":"✣","color":"dark_red"},{"translate":"space.-max"}]}'}
 execute as @e[type=item,tag=ttc.entity.technical.lifesteal_heal,tag=!ttc.entity.technical.lifesteal_heal.setup] run function ttc:player/displays/lifesteal/item

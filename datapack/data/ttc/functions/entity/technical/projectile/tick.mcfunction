@@ -1,6 +1,6 @@
-scoreboard players add @s timer 1
+scoreboard players add @s ttc.timer 1
 scoreboard players operation .id ttc.d = @s ttc.id
-scoreboard players operation s.damage ttc.d = @s damage.base
+scoreboard players operation s.damage ttc.d = @s ttc.damage.base
 execute as @a if score @s ttc.id = .id ttc.d run tag @s add ttc.player.owner
 
 execute as @e[type=#ttc:mobs,tag=ttc.entity.mob,dx=0,limit=1,sort=nearest,nbt={HurtTime:0s}] positioned ~-0.89 ~-0.89 ~-0.89 if entity @s[dx=0] at @s run function ttc:entity/technical/projectile/hit

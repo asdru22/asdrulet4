@@ -4,4 +4,4 @@ function ttc:player/stats/get/get_items
 function ttc:player/stats/mining_speed/get
 execute as @e[type=item,predicate=ttc:entity/block_drop] at @s run function ttc:entity/block_drop/check
 tag @s add ttc.player.block_breaking
-scoreboard players reset @s use_nether_pick
+scoreboard players reset @s ttc.use_nether_pick

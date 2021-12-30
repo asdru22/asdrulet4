@@ -1,2 +1,2 @@
-data modify storage mdata root.temp.equipment.mainhand set from entity @s SelectedItem
-execute if data storage mdata root.temp.equipment.mainhand.tag.base{type:"magic"} run function ttc:item/magic/check
+data modify storage ttc:mdata root.temp.equipment.mainhand set from entity @s SelectedItem
+execute if data storage ttc:mdata root.temp.equipment.mainhand.tag.base{type:"magic"} run function ttc:item/magic/check

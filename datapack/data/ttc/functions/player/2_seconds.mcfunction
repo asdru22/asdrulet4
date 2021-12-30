@@ -1,1 +1,1 @@
-execute if score @s stat.psychosis < @s max_psychosis run function ttc:player/stats/max_psychosis/regen
+execute if score @s ttc.stat.psychosis < @s ttc.max_psychosis run function ttc:player/stats/max_psychosis/regen

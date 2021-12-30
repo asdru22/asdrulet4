@@ -1,6 +1,6 @@
 tag @s remove ttc.ability.frostspark_blade
 tag @s remove ttc.ability
-scoreboard players reset @s timer
+scoreboard players reset @s ttc.timer
 
 item modify entity @s[nbt={Inventory:[{Slot:0b,id:"minecraft:diamond_sword",tag:{CustomModelData:5,base:{id:"frostspark_blade"}}}]}] container.0 ttc:custom/frostspark_blade_shattered
 item modify entity @s[nbt={Inventory:[{Slot:1b,id:"minecraft:diamond_sword",tag:{CustomModelData:5,base:{id:"frostspark_blade"}}}]}] container.1 ttc:custom/frostspark_blade_shattered
