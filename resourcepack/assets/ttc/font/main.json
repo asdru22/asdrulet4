@@ -8,7 +8,7 @@
             "chars": [
                 "\u000a\u000b\u000c\u000d"
             ]
-        },
+        }, 
         {
             "type": "bitmap",
             "file": "ttc:gui/icons.png",
@@ -61,6 +61,24 @@
             "height": 13,
             "chars": [
                 "\u002d\u002e\u002f\u0030"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ttc:gui/hearts.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0031\u0032\u0033\u0034"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ttc:gui/damage_sources.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0035"
             ]
         }
     ]

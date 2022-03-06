@@ -12,13 +12,13 @@ scoreboard objectives add ttc.max_psychosis dummy
 scoreboard objectives add ttc.perc_psychosis dummy
 
 #stats
-scoreboard objectives add damage.base dummy
-scoreboard objectives add crit_damage.base dummy
-scoreboard objectives add crit_chance.base dummy
-scoreboard objectives add defense.base dummy
-scoreboard objectives add health.base dummy
-scoreboard objectives add mana.base dummy
-scoreboard objectives add psychosis.base dummy
+scoreboard objectives add ttc.damage.base dummy
+scoreboard objectives add ttc.crit_ttc.damage.base dummy
+scoreboard objectives add ttc.crit_chance.base dummy
+scoreboard objectives add ttc.defense.base dummy
+scoreboard objectives add ttc.health.base dummy
+scoreboard objectives add ttc.mana.base dummy
+scoreboard objectives add ttc.psychosis.base dummy
 
 scoreboard objectives add ttc.stat.defense dummy
 scoreboard objectives add ttc.stat.health dummy
@@ -33,7 +33,7 @@ scoreboard objectives add ttc.use_coas minecraft.used:minecraft.carrot_on_a_stic
 scoreboard objectives add ttc.use_wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
 #other
 scoreboard objectives add ttc.using_slot dummy
-scoreboard objectives add p_ttc.using_slot dummy
+scoreboard objectives add ttc.previous_using_slot dummy
 ## block breaking 
 scoreboard objectives add block.c_ttc.timer dummy
 scoreboard objectives add block.m_ttc.timer dummy
@@ -83,6 +83,6 @@ setblock -3000000 0 2000 yellow_shulker_box{Items:[{Slot:0b,id:"minecraft:barrie
 function ttc:technical/set_constants
 function ttc:technical/timers/second/second
 function ttc:technical/timers/2_seconds/main
-
+function ttc:technical/timers/10_tick
 
 tellraw @a {"text":"reload COMPLETE!!","color":"yellow"}
