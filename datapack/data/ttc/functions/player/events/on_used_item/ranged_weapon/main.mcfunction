@@ -1,4 +1,5 @@
 tag @s add ttc.me
+execute if data storage ttc:data root.temp.equipment.mainhand.tag.base.Durability run function ttc:item/custom/durability/init
 function ttc:player/stats/get/get_items
 function ttc:player/stats/arrow_speed/get
 scoreboard players operation t.lvl ttc.d = @s ttc.level

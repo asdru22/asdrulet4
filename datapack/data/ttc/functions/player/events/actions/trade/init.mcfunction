@@ -32,8 +32,8 @@ execute if entity @s[advancements={ttc:technical/player/interact_with_villager={
 execute if entity @s[advancements={ttc:technical/player/interact_with_villager={bit30=true}}] run scoreboard players add $trade ttc.id 1073741824
 execute if entity @s[advancements={ttc:technical/player/interact_with_villager={bit31=true}}] run scoreboard players operation $trade ttc.id *= const.-1 ttc.d
 scoreboard players operation d.2 ttc.d = @s ttc.id
-data remove storage ttc:mdata root.core.player_trade
-data modify storage ttc:mdata root.core.player_trade.Inventory set from entity @s Inventory
-data modify storage ttc:mdata root.core.player_trade.SelectedItem set from entity @s SelectedItem
+data remove storage ttc:data root.core.player_trade
+data modify storage ttc:data root.core.player_trade.Inventory set from entity @s Inventory
+data modify storage ttc:data root.core.player_trade.SelectedItem set from entity @s SelectedItem
 execute as @e[type=#ttc:mobs,tag=ttc.entity.mob.setup] if score @s ttc.mob_id = $trade ttc.id run function ttc:entity/mob/npc/trader/traded_with
 advancement revoke @s only ttc:technical/player/interact_with_villager

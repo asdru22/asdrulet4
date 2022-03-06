@@ -1,4 +1,3 @@
-function ttc:player/displays/actionbar/main
 execute if entity @s[scores={ttc.use_crossbow=1..}] run function ttc:player/events/on_used_item/ranged_weapon/main
 execute if entity @s[scores={ttc.use_bow=1..}] run function ttc:player/events/on_used_item/ranged_weapon/main
 execute if entity @s[scores={ttc.use_trident=1..}] run function ttc:player/events/on_used_item/ranged_weapon/main

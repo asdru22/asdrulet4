@@ -39,6 +39,8 @@ scoreboard objectives add block.c_ttc.timer dummy
 scoreboard objectives add block.m_ttc.timer dummy
 ## clocks
 scoreboard objectives add ttc.timer dummy
+scoreboard objectives add ttc.gui dummy
+scoreboard objectives add ttc.prev_gui dummy
 #entity matching scores
 scoreboard objectives add ttc.id dummy
 scoreboard objectives add ttc.mob_id dummy

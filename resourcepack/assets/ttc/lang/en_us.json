@@ -23,7 +23,7 @@
 
 	"item.ttc.lore.level_required_and_sell_price":"Level Required: %s    Sell Price: %s",
 	"item.ttc.lore.sell_price":"Sell Price: %s",
-
+	"item.ttc.lore.durability":"Durability: %s / %s",
 	"entity.ttc.dummy":"Dummy",
 	"display.ttc.mob_display":"%s §7[§r%s§7/§r%s§c❤§7]",
 	"display.ttc.damage_dealt":"%s%s%s%s",

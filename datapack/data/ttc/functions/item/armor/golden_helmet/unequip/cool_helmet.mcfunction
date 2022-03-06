@@ -1,4 +1,4 @@
-data modify storage ttc:mdata root.temp.item.tag set from entity @s Inventory[{id:"minecraft:carrot_on_a_stick",tag:{base:{id:"cool_helmet"}}}].tag
+data modify storage ttc:data root.temp.item.tag set from entity @s Inventory[{id:"minecraft:carrot_on_a_stick",tag:{base:{id:"cool_helmet"}}}].tag
 loot replace entity @s[nbt={Inventory:[{Slot:0b,id:"minecraft:carrot_on_a_stick",tag:{base:{id:"cool_helmet"}}}]}] container.0 loot ttc:technical/golden_helmet_copy_nbt
 loot replace entity @s[nbt={Inventory:[{Slot:1b,id:"minecraft:carrot_on_a_stick",tag:{base:{id:"cool_helmet"}}}]}] container.1 loot ttc:technical/golden_helmet_copy_nbt
 loot replace entity @s[nbt={Inventory:[{Slot:2b,id:"minecraft:carrot_on_a_stick",tag:{base:{id:"cool_helmet"}}}]}] container.2 loot ttc:technical/golden_helmet_copy_nbt

@@ -1,4 +1,4 @@
-execute if data storage ttc:mdata root.temp.equipment.Accessories[].tag.base.AccessoryAbility[{id:"void_charm"}] run function ttc:item/accessory/void_charm
+execute if data storage ttc:data root.temp.equipment.Accessories[].tag.base.AccessoryAbility[{id:"void_charm"}] run function ttc:item/accessory/void_charm
 
 
 scoreboard players operation psychic.dmg ttc.d = s.damage ttc.d
