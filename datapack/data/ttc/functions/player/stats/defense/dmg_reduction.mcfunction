@@ -1,3 +1,4 @@
+execute if data storage ttc:data root.temp.equipment.offhand.tag.base.Durability run function ttc:item/custom/durability/offhand/init
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.offhand.tag.base.stats.damage_reduction
 execute if data storage ttc:data root.temp.equipment.mainhand.tag.base{type:"shield"} store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.mainhand.tag.base.stats.damage_reduction
 scoreboard players set d.1 ttc.d 100

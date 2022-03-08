@@ -1,0 +1,40 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "ttc:data"
+    },
+    "ops": [
+      {
+        "source": "root.temp.equipment.offhand.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.ttc.lore.durability",
+        "with": [
+          {
+            "score": {
+              "name": "dur",
+              "objective": "ttc.d"
+            }
+          },
+          {
+            "nbt": "root.temp.equipment.offhand.tag.base.Durability.max",
+            "storage": "ttc:data"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]
