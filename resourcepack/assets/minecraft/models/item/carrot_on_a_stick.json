@@ -5,6 +5,7 @@
     },
     "overrides": [
       {"predicate": {"custom_model_data": 1},"model": "ttc:item/magic/sapphire_staff"},
-      {"predicate": {"custom_model_data": 2},"model": "ttc:item/magic/light_stave"}
+      {"predicate": {"custom_model_data": 2},"model": "ttc:item/magic/light_stave"},
+      {"predicate": {"custom_model_data": 3},"model": "ttc:item/magic/snow_staff"}
     ]
   }

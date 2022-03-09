@@ -2,6 +2,7 @@ execute if data storage ttc:data root.temp.equipment.Accessories[].tag.base.Acce
 
 
 scoreboard players operation psychic.dmg ttc.d = s.damage ttc.d
+scoreboard players add s.psychosis_used ttc.d 2300
 scoreboard players operation psychic.dmg ttc.d *= s.psychosis_used ttc.d
 #tellraw @p {"score":{"name":"s.psychosis_used","objective": "ttc.d"}}
 scoreboard players operation psychic.dmg ttc.d /= const.1000 ttc.d

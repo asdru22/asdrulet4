@@ -9,7 +9,8 @@ scoreboard players set @s ttc.health.base 50
 scoreboard players set @s ttc.mana.base 100
 scoreboard players set @s ttc.stat.health 50
 scoreboard players set @s ttc.stat.mana 100
-
+scoreboard players set @s ttc.crit_damage.base 5
+scoreboard players set @s ttc.crit_chance.base 20
 scoreboard players set @s ttc.stat.psychosis 10000
 scoreboard players set @s ttc.max_psychosis 10000
 scoreboard players set @s ttc.perc_psychosis 100

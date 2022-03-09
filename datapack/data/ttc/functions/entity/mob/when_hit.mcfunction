@@ -18,3 +18,7 @@ execute if score psychic_hit ttc.d matches 1 run function ttc:entity/mob/psychic
 scoreboard players operation @s ttc.stat.health -= s.damage ttc.d
 function ttc:entity/mob/update_hp_display
 execute if score @s ttc.stat.health matches ..0 run function ttc:entity/mob/on_death
+
+## other "when_hit" events
+
+execute if data storage ttc:data root.temp.equipment.mainhand.tag.base{id:"snow_staff"} run effect give @s slowness 2 1 false

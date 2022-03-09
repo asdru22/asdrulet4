@@ -1,13 +1,12 @@
 scoreboard players operation s.damage ttc.d = @s ttc.damage.base
 #get mainhand item
 
-execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.mainhand.tag.base.stats.damage
- 
+execute store result score d.1 ttc.d run data get storage ttc:data root.temp.equipment.mainhand.tag.base.stats.damage
 execute if data storage ttc:data root.temp.attack.type{type:"melee"} run function ttc:player/stats/damage/melee_abilities
-execute if data storage ttc:data root.temp.attack.type{type:"ranged"} unless data storage ttc:data root.temp.equipment.mainhand.tag.base{type:"ranged"} run scoreboard players set d.0 ttc.d 0
-execute if data storage ttc:data root.temp.attack.type{type:"magic"} unless data storage ttc:data root.temp.equipment.mainhand.tag.base{type:"magic"} run scoreboard players set d.0 ttc.d 0
+execute if data storage ttc:data root.temp.attack.type{type:"ranged"} unless data storage ttc:data root.temp.equipment.mainhand.tag.base{type:"ranged"} run scoreboard players set d.1 ttc.d 0
+execute if data storage ttc:data root.temp.attack.type{type:"magic"} unless data storage ttc:data root.temp.equipment.mainhand.tag.base{type:"magic"} run scoreboard players set d.1 ttc.d 0
 
-execute if score @s ttc.level >= lvl.mainhand ttc.d run scoreboard players operation s.damage ttc.d += d.0 ttc.d
+execute if score @s ttc.level >= lvl.mainhand ttc.d run scoreboard players operation s.damage ttc.d += d.1 ttc.d
 #get offhand item
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.offhand.tag.base.stats.damage 
 execute if score @s ttc.level >= lvl.offhand ttc.d run scoreboard players operation s.damage ttc.d += d.0 ttc.d

@@ -45,17 +45,20 @@
 	"display.ttc.psychosis.10":"\u0016\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0017\u002c\u0018 %s%s%s%s",
 
 	"item.ttc.frostspark_blade":"Frostspark Blade",
-	"item.ttc.lore.frostspark_blade.ability.1":"Striking an enemy while sneaking will",
-	"item.ttc.lore.frostspark_blade.ability.2":"shatter your weapon and create shards that pierce",
-	"item.ttc.lore.frostspark_blade.ability.3":"enemies dealing §c13§r damage, and then return to you.",
+	"item.ttc.lore.frostspark_blade.ability.1":"Striking an enemy while sneaking will shatter your",
+	"item.ttc.lore.frostspark_blade.ability.2":"weapon and create shards that pierce enemies",
+	"item.ttc.lore.frostspark_blade.ability.3":"dealing §c13§r damage, and then return to you.",
 	"item.ttc.lore.frostspark_blade.ability.4":"The sword, whilst shattered, deals §chalf§r damage.",
+	"item.ttc.lore.frostspark_blade.ability.5":"Requires§b 50§r mana.",
 
 	"item.ttc.iron_greatsword":"Iron Greatsword",
 
 	"item.ttc.light_stave":"Light Stave",
 	"item.ttc.light_stave.ability.1":"Hitting a mob will make 2 extra beams",
 	"item.ttc.light_stave.ability.2":"appear, that target the entity that was just hit.",
-
+	"item.ttc.snow_staff":"Snow Staff",
+	"item.ttc.lore.snow_staff.ability.1":"Throw a snowball that damages and slows",
+	"item.ttc.lore.snow_staff.ability.2":"down mobs it comes in contact with.",
 	"container.crafting": "",
 
 

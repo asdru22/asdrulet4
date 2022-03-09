@@ -37,3 +37,7 @@ scoreboard players operation d.0 ttc.d = s.damage ttc.d
 scoreboard players operation d.0 ttc.d *= s.crit_damage ttc.d
 scoreboard players operation d.0 ttc.d /= const.100 ttc.d
 scoreboard players operation s.damage ttc.d += d.0 ttc.d
+
+execute if data storage ttc:data root.temp.attack.type{type:"melee"} run data modify storage ttc:data root.temp.attack.type.display set value '{"text":"\\u003c","font":"ttc:main"}' 
+execute if data storage ttc:data root.temp.attack.type{type:"ranged"} run data modify storage ttc:data root.temp.attack.type.display set value '{"text":"\\u003d","font":"ttc:main"}' 
+execute if data storage ttc:data root.temp.attack.type{type:"magic"} run data modify storage ttc:data root.temp.attack.type.display set value '{"text":"\\u003e","font":"ttc:main"}' 

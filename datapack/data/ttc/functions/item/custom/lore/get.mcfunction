@@ -1,6 +1,6 @@
 execute store result score lore.damage ttc.d run data get storage ttc:data root.temp.editing.tag.base.stats.damage
 execute store result score lore.mana_req ttc.d run data get storage ttc:data root.temp.editing.tag.base.stats.mana_req
-execute store result score lore.attack_speed ttc.d run data get storage ttc:data root.temp.editing.tag.base.stats.attack_speed
+execute store result score lore.attack_speed ttc.d run data get storage ttc:data root.temp.editing.tag.base.stats.attack_speed 100
 execute store result score lore.arrow_speed ttc.d run data get storage ttc:data root.temp.editing.tag.base.stats.arrow_speed
 execute store result score lore.crit_chance ttc.d run data get storage ttc:data root.temp.editing.tag.base.stats.crit_chance
 execute store result score lore.crit_damage ttc.d run data get storage ttc:data root.temp.editing.tag.base.stats.crit_damage

@@ -1302,6 +1302,34 @@
       "entity":"this",
       "lore":[
         {
+          "nbt":"root.temp.editing.tag.base.Ability[4]",
+          "storage":"ttc:data",
+          "interpret":true
+        }
+      ],
+      "replace":false,
+      "conditions":[
+        {
+          "condition":"minecraft:value_check",
+          "value":{
+            "type":"minecraft:score",
+            "target":{
+              "type":"minecraft:fixed",
+              "name":"lore.ability_lines"
+            },
+            "score":"ttc.d"
+          },
+          "range":{
+            "min":5
+          }
+        }
+      ]
+    },
+    {
+      "function":"minecraft:set_lore",
+      "entity":"this",
+      "lore":[
+        {
           "text":""
         }
       ],

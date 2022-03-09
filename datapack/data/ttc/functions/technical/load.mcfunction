@@ -13,7 +13,7 @@ scoreboard objectives add ttc.perc_psychosis dummy
 
 #stats
 scoreboard objectives add ttc.damage.base dummy
-scoreboard objectives add ttc.crit_ttc.damage.base dummy
+scoreboard objectives add ttc.crit_damage.base dummy
 scoreboard objectives add ttc.crit_chance.base dummy
 scoreboard objectives add ttc.defense.base dummy
 scoreboard objectives add ttc.health.base dummy
@@ -35,8 +35,8 @@ scoreboard objectives add ttc.use_wfoas minecraft.used:minecraft.warped_fungus_o
 scoreboard objectives add ttc.using_slot dummy
 scoreboard objectives add ttc.previous_using_slot dummy
 ## block breaking 
-scoreboard objectives add block.c_ttc.timer dummy
-scoreboard objectives add block.m_ttc.timer dummy
+scoreboard objectives add ttc.block_current_break_time dummy
+scoreboard objectives add ttc.block_total_break_time dummy
 ## clocks
 scoreboard objectives add ttc.timer dummy
 scoreboard objectives add ttc.gui dummy
@@ -86,3 +86,6 @@ function ttc:technical/timers/2_seconds/main
 function ttc:technical/timers/10_tick
 
 tellraw @a {"text":"reload COMPLETE!!","color":"yellow"}
+
+kill @e[type=marker,tag=ttc.trig]
+summon marker 0.0 0 0.0 {Tags:["ttc.trig"]}

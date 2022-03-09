@@ -80,6 +80,15 @@
             "chars": [
                 "\u0035"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ttc:gui/damage_indicators.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0036\u0037\u0038\u0039\u003a\u003b\u003c\u003d\u003e"
+            ]
         }
     ]
 }
