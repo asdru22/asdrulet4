@@ -41,6 +41,9 @@ scoreboard objectives add ttc.block_total_break_time dummy
 scoreboard objectives add ttc.timer dummy
 scoreboard objectives add ttc.gui dummy
 scoreboard objectives add ttc.prev_gui dummy
+
+scoreboard objectives add ttc.effect.electrified dummy
+
 #entity matching scores
 scoreboard objectives add ttc.id dummy
 scoreboard objectives add ttc.mob_id dummy

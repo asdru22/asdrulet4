@@ -1,0 +1,1 @@
+execute if entity @s[scores={ttc.effect.electrified=1..}] run function ttc:effects/electrified/timer

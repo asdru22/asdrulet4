@@ -7,7 +7,7 @@ execute if data storage ttc:data root.temp.attack.type{type:"ranged"} unless dat
 execute if data storage ttc:data root.temp.attack.type{type:"magic"} unless data storage ttc:data root.temp.equipment.mainhand.tag.base{type:"magic"} run scoreboard players set d.0 ttc.d 0
 execute if score @s ttc.level >= lvl.mainhand ttc.d run scoreboard players operation s.crit_chance ttc.d += d.0 ttc.d
 #get offhand item
-execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.offhand.tag.base.stats.crit_chance 
+execute unless data storage ttc:data root.temp.equipment.offhand.tag.base{type:"ranged"} unless data storage ttc:data root.temp.equipment.offhand.tag.base{type:"melee"} unless data storage ttc:data root.temp.equipment.offhand.tag.base{type:"magic"} store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.offhand.tag.base.stats.crit_chance 
 execute if score @s ttc.level >= lvl.offhand ttc.d run scoreboard players operation s.crit_chance ttc.d += d.0 ttc.d
 #get head item
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.head.tag.base.stats.crit_chance 

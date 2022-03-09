@@ -4,7 +4,7 @@ scoreboard players operation s.max_mana ttc.d = @s ttc.mana.base
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.mainhand.tag.base.stats.max_mana 
 execute if score @s ttc.level >= lvl.mainhand ttc.d run scoreboard players operation s.max_mana ttc.d += d.0 ttc.d
 #get offhand item
-execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.offhand.tag.base.stats.max_mana 
+execute unless data storage ttc:data root.temp.equipment.offhand.tag.base{type:"ranged"} unless data storage ttc:data root.temp.equipment.offhand.tag.base{type:"melee"} unless data storage ttc:data root.temp.equipment.offhand.tag.base{type:"magic"} store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.offhand.tag.base.stats.max_mana 
 execute if score @s ttc.level >= lvl.offhand ttc.d run scoreboard players operation s.max_mana ttc.d += d.0 ttc.d
 #get head item
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.head.tag.base.stats.max_mana 

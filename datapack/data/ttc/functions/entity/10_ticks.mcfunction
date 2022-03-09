@@ -1,0 +1,1 @@
+execute if entity @s[tag=ttc.mob.effect] run function ttc:entity/effects
