@@ -1,1 +1,1 @@
-execute store result score @s ttc.mob_health run data get entity @s Health 10
+execute store result score @s ttc.max_health run data get entity @s Health 10

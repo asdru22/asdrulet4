@@ -15,6 +15,7 @@ scoreboard players set @s ttc.stat.psychosis 10000
 scoreboard players set @s ttc.max_psychosis 10000
 scoreboard players set @s ttc.perc_psychosis 100
 scoreboard players set @s ttc.psychosis.base 100
+scoreboard players set @s ttc.effect.absorption 0
 attribute @s generic.attack_damage base set 10
 
 

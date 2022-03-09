@@ -2,6 +2,7 @@ execute if entity @s[advancements={ttc:technical/player/on_hit={melee_hit=true}}
 execute if entity @s[advancements={ttc:technical/player/on_hit={ranged_hit=true}}] run data modify storage ttc:data root.temp.attack.type set value {type:"ranged",display:'{"text":"\\u0037","font":"ttc:main"}'}
 execute if entity @s[advancements={ttc:technical/player/on_hit={ranged_exp_hit=true}}] run data modify storage ttc:data root.temp.attack.type set value {type:"ranged",display:'{"text":"\\u0037","font":"ttc:main"}'}
 execute if entity @s[advancements={ttc:technical/player/on_hit={magic_hit=true}}] run data modify storage ttc:data root.temp.attack.type set value {type:"magic",display:'{"text":"\\u0038","font":"ttc:main"}'}
+execute if entity @s[advancements={ttc:technical/player/on_hit={magic_hit=true}}] run scoreboard players set real.damage_recived ttc.d 100
 function ttc:player/stats/get/get_items
 function ttc:player/stats/damage/get
 function ttc:player/stats/crit_chance/get

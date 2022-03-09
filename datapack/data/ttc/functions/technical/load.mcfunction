@@ -10,8 +10,7 @@ scoreboard objectives add ttc.max_mana dummy
 scoreboard objectives add ttc.stat.psychosis dummy
 scoreboard objectives add ttc.max_psychosis dummy
 scoreboard objectives add ttc.perc_psychosis dummy
-
-#stats
+##stats
 scoreboard objectives add ttc.damage.base dummy
 scoreboard objectives add ttc.crit_damage.base dummy
 scoreboard objectives add ttc.crit_chance.base dummy
@@ -19,7 +18,6 @@ scoreboard objectives add ttc.defense.base dummy
 scoreboard objectives add ttc.health.base dummy
 scoreboard objectives add ttc.mana.base dummy
 scoreboard objectives add ttc.psychosis.base dummy
-
 scoreboard objectives add ttc.stat.defense dummy
 scoreboard objectives add ttc.stat.health dummy
 scoreboard objectives add ttc.regen.delay dummy
@@ -41,8 +39,9 @@ scoreboard objectives add ttc.block_total_break_time dummy
 scoreboard objectives add ttc.timer dummy
 scoreboard objectives add ttc.gui dummy
 scoreboard objectives add ttc.prev_gui dummy
-
+## effects
 scoreboard objectives add ttc.effect.electrified dummy
+scoreboard objectives add ttc.effect.absorption dummy
 
 #entity matching scores
 scoreboard objectives add ttc.id dummy
