@@ -10,5 +10,5 @@ scoreboard players set @s ttc.regen.delay 10
 execute if predicate ttc:technical/rng/20 anchored eyes if entity @e[type=#ttc:mobs,distance=..5,nbt=!{Invulnerable:1b}] facing entity @e[type=#ttc:mobs,distance=0.1..5,nbt=!{Invulnerable:1b},limit=1,sort=random] eyes run function ttc:effects/electrified/attempt_cast
 execute if entity @s[type=!player] run function ttc:entity/mob/update_hp_display
 
-effect give @s[type=!#ttc:undead] instant_damage 1 30 true
-effect give @s[type=#ttc:undead] instant_health 1 30 false
+effect give @s[type=!#ttc:undead] instant_damage 1 0 true
+effect give @s[type=#ttc:undead] instant_health 1 0 false

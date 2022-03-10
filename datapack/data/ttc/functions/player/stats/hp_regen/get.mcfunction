@@ -35,3 +35,4 @@ execute if score regen_val map_d matches 0 run scoreboard players set regen_val 
 
 scoreboard players operation @s ttc.stat.health += regen_val ttc.d
 execute if score @s ttc.stat.health >= @s ttc.max_health run scoreboard players operation @s ttc.stat.health = @s ttc.max_health
+function ttc:player/displays/healthbar

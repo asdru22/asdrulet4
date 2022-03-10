@@ -1,5 +1,5 @@
-effect give @s[type=#ttc:undead] instant_health 1 30 true
-effect give @s[type=!#ttc:undead] instant_damage 1 30 true
+effect give @s[type=#ttc:undead] instant_health 1 0 true
+effect give @s[type=!#ttc:undead] instant_damage 1 0 true
 tag @s add ttc.entity.raycast.hit
 scoreboard players set .hit ttc.d 0
 scoreboard players set magic.triggered ttc.d 1

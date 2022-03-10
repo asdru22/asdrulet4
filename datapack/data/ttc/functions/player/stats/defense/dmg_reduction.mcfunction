@@ -6,3 +6,4 @@ scoreboard players operation d.1 ttc.d -= d.0 ttc.d
 
 scoreboard players operation dmg.recived ttc.d *= d.1 ttc.d
 scoreboard players operation dmg.recived ttc.d /= const.100 ttc.d
+

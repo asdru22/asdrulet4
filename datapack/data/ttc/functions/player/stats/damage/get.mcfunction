@@ -32,10 +32,10 @@ execute if score @s ttc.level >= lvl.acc2 ttc.d run scoreboard players operation
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.Accessories[2].tag.base.stats.damage 
 execute if score @s ttc.level >= lvl.acc3 ttc.d run scoreboard players operation s.damage ttc.d += d.0 ttc.d
 
-tellraw @s ["real damage: ",{"score":{"name": "real.damage_recived","objective": "ttc.d"}}]
+tellraw @s[tag=ttc.dmg_out] ["| Overall damage stat: ",{"score":{"name": "s.damage","objective": "ttc.d"}}]
 scoreboard players operation s.damage ttc.d *= real.damage_recived ttc.d
 scoreboard players operation s.damage ttc.d /= const.100 ttc.d
 
 execute if data storage ttc:data root.temp.equipment.mainhand.tag{CustomModelData:5,base:{id:"frostspark_blade"}} run scoreboard players operation s.damage ttc.d /= const.2 ttc.d
 
-tellraw @s ["tot damage output: ",{"score":{"name": "s.damage","objective": "ttc.d"}}]
+tellraw @s[tag=ttc.dmg_out] ["| Damage output: ",{"score":{"name": "s.damage","objective": "ttc.d"}}]

@@ -31,8 +31,7 @@ execute if score @s ttc.level >= lvl.acc2 ttc.d run scoreboard players operation
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.Accessories[2].tag.base.stats.crit_chance 
 execute if score @s ttc.level >= lvl.acc3 ttc.d run scoreboard players operation s.crit_chance ttc.d += d.0 ttc.d
 
-#tellraw @s ["crit_chance: ",{"score":{"name": "s.crit_chance","objective": "ttc.d"}}]
+tellraw @s[tag=ttc.dmg_out] ["| Overall crit chance stat: ",{"score":{"name": "s.crit_chance","objective": "ttc.d"}}]
 execute if score s.crit_chance ttc.d matches 1.. store result score d.0 ttc.d run loot spawn ~ ~ ~ loot ttc:technical/rng/random_1_100
-#tellraw @s ["rng out: ",{"score":{"name": "d.0","objective": "ttc.d"}}]
 
 execute if score d.0 ttc.d < s.crit_chance ttc.d run function ttc:player/stats/crit_damage/get 

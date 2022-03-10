@@ -30,14 +30,13 @@ execute if score @s ttc.level >= lvl.acc2 ttc.d run scoreboard players operation
 execute store result score d.0 ttc.d run data get storage ttc:data root.temp.equipment.Accessories[2].tag.base.stats.crit_damage 
 execute if score @s ttc.level >= lvl.acc3 ttc.d run scoreboard players operation s.crit_damage ttc.d += d.0 ttc.d
 
-#tellraw @s ["crit damage: ",{"score":{"name": "s.crit_damage","objective": "ttc.d"}}]
+tellraw @s[tag=ttc.dmg_out] ["->| Overall crit damage stat: ",{"score":{"name": "s.crit_damage","objective": "ttc.d"}}]
 
 scoreboard players set .crit ttc.d 1
 scoreboard players operation d.0 ttc.d = s.damage ttc.d
 scoreboard players operation d.0 ttc.d *= s.crit_damage ttc.d
 scoreboard players operation d.0 ttc.d /= const.100 ttc.d
 scoreboard players operation s.damage ttc.d += d.0 ttc.d
-
 execute if data storage ttc:data root.temp.attack.type{type:"melee"} run data modify storage ttc:data root.temp.attack.type.display set value '{"text":"\\u003c","font":"ttc:main"}' 
 execute if data storage ttc:data root.temp.attack.type{type:"ranged"} run data modify storage ttc:data root.temp.attack.type.display set value '{"text":"\\u003d","font":"ttc:main"}' 
 execute if data storage ttc:data root.temp.attack.type{type:"magic"} run data modify storage ttc:data root.temp.attack.type.display set value '{"text":"\\u003e","font":"ttc:main"}' 

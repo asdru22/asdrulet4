@@ -29,6 +29,8 @@
 	"display.ttc.damage_recived":"%s%s%s%s%s",
 	"display.ttc.heal_recived":"%s%s%s%s%s",
 	"display.ttc.actionbar":"%s/%s%s%s%s%s%s%s/%s%s",
+	"display.ttc.actionbar_absorption":"%s%s%s%s%s%s%s/%s%s",
+
 	"display.ttc.block_progress":"%s%s",
 	"display.ttc.dodge":"Dodge!",
 
