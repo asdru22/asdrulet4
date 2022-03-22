@@ -23,3 +23,4 @@ execute store result score lore.level_req ttc.d run data get storage ttc:data ro
 execute store result score lore.sell_price ttc.d run data get storage ttc:data root.temp.editing.tag.base.sell_price
 scoreboard players set lore.durability ttc.d 0
 execute store result score lore.durability ttc.d run data get storage ttc:data root.temp.editing.tag.base.Durability.current
+execute store result score lore.cooldown ttc.d run data get storage ttc:data root.temp.editing.tag.base.ability_cooldown 2

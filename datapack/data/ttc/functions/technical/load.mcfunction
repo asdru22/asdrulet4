@@ -39,6 +39,8 @@ scoreboard objectives add ttc.block_total_break_time dummy
 scoreboard objectives add ttc.timer dummy
 scoreboard objectives add ttc.gui dummy
 scoreboard objectives add ttc.prev_gui dummy
+scoreboard objectives add ttc.ability_cooldown dummy
+
 ## effects
 scoreboard objectives add ttc.effect.electrified dummy
 scoreboard objectives add ttc.effect.absorption dummy

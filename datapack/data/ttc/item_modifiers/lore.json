@@ -1330,6 +1330,64 @@
       "entity":"this",
       "lore":[
         {
+          "translate":"item.ttc.lore.ability.cooldown",
+          "with":[
+            {
+              "score":{
+                "name":"lore.cooldown",
+                "objective":"ttc.d"
+              },
+              "color":"gold"
+            }
+          ],
+          "color":"gray",
+          "italic":false
+        }
+      ],
+      "replace":false,
+      "conditions":[
+        {
+          "condition":"minecraft:alternative",
+          "terms":[
+            {
+              "condition":"minecraft:value_check",
+              "value":{
+                "type":"minecraft:score",
+                "target":{
+                  "type":"minecraft:fixed",
+                  "name":"lore.cooldown"
+                },
+                "score":"ttc.d"
+              },
+              "range":{
+                "min":1,
+                "max":2147483648
+              }
+            },
+            {
+              "condition":"minecraft:value_check",
+              "value":{
+                "type":"minecraft:score",
+                "target":{
+                  "type":"minecraft:fixed",
+                  "name":"lore.cooldown"
+                },
+                "score":"ttc.d"
+              },
+              "range":{
+                "min":-2147483648,
+                "max":-1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function":"minecraft:set_lore",
+      "entity":"this",
+      "lore":[
+        {
           "text":""
         }
       ],
@@ -1391,18 +1449,39 @@
       "replace":false,
       "conditions":[
         {
-          "condition":"minecraft:value_check",
-          "value":{
-            "type":"minecraft:score",
-            "target":{
-              "type":"minecraft:fixed",
-              "name":"lore.ability_lines"
+          "condition":"minecraft:alternative",
+          "terms":[
+            {
+              "condition":"minecraft:value_check",
+              "value":{
+                "type":"minecraft:score",
+                "target":{
+                  "type":"minecraft:fixed",
+                  "name":"lore.durability"
+                },
+                "score":"ttc.d"
+              },
+              "range":{
+                "min":1,
+                "max":2147483648
+              }
             },
-            "score":"ttc.d"
-          },
-          "range":{
-            "min":1
-          }
+            {
+              "condition":"minecraft:value_check",
+              "value":{
+                "type":"minecraft:score",
+                "target":{
+                  "type":"minecraft:fixed",
+                  "name":"lore.durability"
+                },
+                "score":"ttc.d"
+              },
+              "range":{
+                "min":-2147483648,
+                "max":-1
+              }
+            }
+          ]
         }
       ]
     }
