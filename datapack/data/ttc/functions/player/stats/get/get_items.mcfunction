@@ -1,5 +1,5 @@
 data modify storage ttc:data root.temp.equipment set value {Accessories:[{},{},{}]}
-## get mainhand item
+# get mainhand item
 execute if entity @s[nbt={SelectedItem:{tag:{base:{custom_item:1b}}}}] run data modify storage ttc:data root.temp.equipment.mainhand set from entity @s SelectedItem
 #get offhand item
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{base:{custom_item:1b}}}]}] run data modify storage ttc:data root.temp.equipment.offhand set from entity @s Inventory[{Slot:-106b}]

@@ -29,7 +29,9 @@ scoreboard objectives add ttc.use_trident minecraft.used:minecraft.trident
 scoreboard objectives add ttc.use_nether_pick minecraft.used:minecraft.netherite_pickaxe
 scoreboard objectives add ttc.use_coas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ttc.use_wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
-#other
+scoreboard objectives add ttc.using_item dummy
+scoreboard objectives add ttc.prev_using_item dummy
+## other
 scoreboard objectives add ttc.using_slot dummy
 scoreboard objectives add ttc.previous_using_slot dummy
 ## block breaking 

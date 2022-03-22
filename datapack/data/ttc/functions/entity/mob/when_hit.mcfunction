@@ -1,5 +1,5 @@
 execute store result score real.damage_recived ttc.d run data get entity @s Health -10
-scoreboard players operation real.damage_recived ttc.d += @s ttc.max_health
+scoreboard players operation real.damage_recived ttc.d += @s ttc.health.base
 execute if score magic.triggered ttc.d matches 1 run scoreboard players set real.damage_recived ttc.d 100
 
 ## store real damage dealt by the player in real.damage_recived
