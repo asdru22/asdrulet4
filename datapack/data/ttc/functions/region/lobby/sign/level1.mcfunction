@@ -1,0 +1,4 @@
+setblock ~ ~ ~ minecraft:warped_wall_sign[facing=east,waterlogged=false]{Color:"white",GlowingText:1b,Text1:'{"color":"white","text":"Level 1"}',Text2:'{"color":"green","clickEvent":{"action":"run_command","value":"/trigger ttc.t set 12400"},"text":"Nature stuff"}',Text3:'{"text":"(Press button"}',Text4:'{"text":"to start)"}'}
+execute if score lvl_avg ttc.d matches ..9 run data merge block ~ ~ ~ {Text3:'{"text":"Party level ","color":"red"}',Text4:'{"text":"lower then 10!","color":"red"}'}
+execute if score lvl_avg ttc.d matches 10.. run setblock ~ ~-1 ~ warped_button[facing=east,face=wall]
+execute if score lvl_avg ttc.d matches 10.. run scoreboard players set g_lvl ttc.d 1

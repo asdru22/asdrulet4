@@ -21,3 +21,5 @@ scoreboard players set @s ttc.ability_cooldown 0
 scoreboard players set @s[tag=ttc.dev] ttc.level 121321
 attribute @s generic.attack_damage base set 10
 effect give @s fire_resistance 100000 20 true
+
+scoreboard players enable @s ttc.t

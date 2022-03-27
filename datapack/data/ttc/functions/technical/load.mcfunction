@@ -1,4 +1,6 @@
 scoreboard objectives add ttc.d dummy
+scoreboard objectives add ttc.t trigger
+
 #levelling scores
 scoreboard objectives add ttc.level dummy
 scoreboard objectives add ttc.xp dummy
@@ -95,3 +97,5 @@ tellraw @a {"text":"reload COMPLETE!!","color":"yellow"}
 
 kill @e[type=marker,tag=ttc.trig]
 summon marker 0.0 0 0.0 {Tags:["ttc.trig"]}
+
+gamerule sendCommandFeedback false
