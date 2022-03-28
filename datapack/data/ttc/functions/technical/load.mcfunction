@@ -86,16 +86,12 @@ scoreboard objectives add ttc.id.30 dummy
 scoreboard objectives add ttc.id.31 dummy
 
 
-forceload add -3000000 2000
-setblock -3000000 0 2000 yellow_shulker_box{Items:[{Slot:0b,id:"minecraft:barrier",Count:1b}]}
+execute in ttc:void run function ttc:region/void/setup
 function ttc:technical/set_constants
 function ttc:technical/timers/second/second
 function ttc:technical/timers/2_seconds/main
 function ttc:technical/timers/10_tick
 
 tellraw @a {"text":"reload COMPLETE!!","color":"yellow"}
-
-kill @e[type=marker,tag=ttc.trig]
-summon marker 0.0 0 0.0 {Tags:["ttc.trig"]}
 
 gamerule sendCommandFeedback false
