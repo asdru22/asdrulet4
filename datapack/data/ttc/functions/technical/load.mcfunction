@@ -95,3 +95,11 @@ function ttc:technical/timers/10_tick
 tellraw @a {"text":"reload COMPLETE!!","color":"yellow"}
 
 gamerule sendCommandFeedback false
+gamerule doTileDrops false
+gamerule doMobSpawning false
+gamerule doFireTick false
+gamerule randomTickSpeed 0
+gamerule disableRaids true
+gamerule doImmediateRespawn true
+gamerule doPatrolSpawning false
+gamerule doTraderSpawning false
