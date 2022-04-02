@@ -103,3 +103,5 @@ gamerule disableRaids true
 gamerule doImmediateRespawn true
 gamerule doPatrolSpawning false
 gamerule doTraderSpawning false
+
+team add ttc.players

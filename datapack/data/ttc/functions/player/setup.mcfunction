@@ -25,4 +25,5 @@ gamemode adventure @s
 scoreboard players enable @s ttc.t
 execute in ttc:void run tp @s 0 4 0
 tag @s add ttc.in_tower
-tag @s add ttc.player.in_level
+tag @s add ttc.player.in_leve
+team join ttc.players
